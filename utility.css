@@ -1,0 +1,81 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gray{
+    background-color: #121212;
+}
+.rouded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* <div class="card">
+<img src="" alt="">
+<h2></h2>
+<p></p>
+</div> */
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 12px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;  /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Color of the thumb */
+    border-radius: 10px;  /* Roundness of the thumb */
+    border: 3px solid #1a1a1a;  /* Space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;  /* Color of the thumb on hover */
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;  /* Makes the scrollbar thin */
+    scrollbar-color: #444 #1a1a1a;  /* thumb color and track color */
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;  /* Height for horizontal scrollbar */
+}
+
+html::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 10px;
+    border: 3px solid #1a1a1a;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
